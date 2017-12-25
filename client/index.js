@@ -4,15 +4,17 @@ import React, {Component} from 'react';
 import ReactDom from 'react-dom';
 
 
-class Test extends Component {
+class Test extends React.Component {
     constructor (){
         super();
     }
 
     render (){
         return (
-            <div className="content">Hello, react.</div>
-        )
+            <div className="content">
+                <p>Hello, react.</p>
+            </div>
+        );        
     }
 }
 
